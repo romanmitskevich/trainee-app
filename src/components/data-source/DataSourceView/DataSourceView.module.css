@@ -1,0 +1,27 @@
+.view {
+  max-width: 760px;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.caption {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.message {
+  font-weight: 500;
+}
+
+.warnings {
+  font-size: 13px;
+  color: var(--color-warning);
+}

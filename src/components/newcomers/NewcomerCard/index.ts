@@ -1,0 +1,1 @@
+export { NewcomerCard } from './NewcomerCard';

@@ -1,0 +1,32 @@
+.button {
+  cursor: pointer;
+  border-radius: var(--radius-small);
+}
+
+.button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.primary {
+  justify-self: start;
+  padding: 8px 16px;
+  color: #fff;
+  background: var(--color-accent);
+  border: 0;
+}
+
+.secondary {
+  padding: 8px 14px;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+}
+
+.link {
+  justify-self: start;
+  padding: 0;
+  color: var(--color-accent);
+  background: none;
+  border: 0;
+}

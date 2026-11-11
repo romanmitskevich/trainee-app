@@ -1,0 +1,40 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.caption {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.wideColumn {
+  width: 40%;
+}
+
+.rateCell {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.breakdownRow {
+  display: grid;
+  grid-template-columns: minmax(120px, 1.4fr) 2fr 28px;
+  gap: 10px;
+  align-items: center;
+  margin: 6px 0;
+  font-size: 14px;
+}

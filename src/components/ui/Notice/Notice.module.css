@@ -1,0 +1,7 @@
+.notice {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: var(--color-warning);
+  background: var(--color-warning-soft);
+  border-radius: var(--radius-medium);
+}

@@ -1,0 +1,20 @@
+.card {
+  padding: 12px 14px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-large);
+}
+
+.value {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.valueNote {
+  font-size: 16px;
+  color: var(--color-text-muted);
+}
+
+.caption {
+  color: var(--color-text-muted);
+}

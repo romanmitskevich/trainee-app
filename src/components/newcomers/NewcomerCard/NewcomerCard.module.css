@@ -1,0 +1,72 @@
+.card {
+  padding: 12px 14px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-border);
+  border-radius: var(--radius-large);
+}
+
+.due {
+  border-left-color: var(--color-warning-bright);
+}
+
+.needsAttention {
+  border-left-color: var(--color-danger);
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.muted {
+  color: var(--color-text-muted);
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.status {
+  margin-top: 6px;
+}
+
+.missed {
+  font-size: 13px;
+  color: var(--color-danger);
+}
+
+.lastCheckIn {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.toggle {
+  margin-top: 6px;
+}
+
+.details {
+  display: grid;
+  gap: 12px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--color-border);
+}
+
+.history {
+  font-size: 13px;
+}
+
+.historyEmpty {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
